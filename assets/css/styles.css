@@ -5,391 +5,372 @@
     font-family: 'Roboto';
 }
 
-
-
-header{
-    width: 100%;
-    height: 20vh;
-    background-color: black;
-    font-family: 'Roboto';
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-bottom: solid;
-    border-color: rgb(20, 22, 22);
-
-}
-
-
-.logo {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    align-self: flex-start;
-    justify-content: center;
-    padding-top: 2vh;
-
-}
-
-.logo img{
-
-    height: 100%;
-
-  
-
-}
-
-
-
-nav{
-    width: 100%;
-    height: 50%;
-
-
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    align-self: flex-end;
-    
-}
-
-nav ul{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-around;
-}
-
-nav li{
-    display: block;
-    list-style-type: none;
-
-
-}
-
-nav li :hover{
-    color: #da2732;
-}
-
-nav li a{
-    text-decoration: none;
-    color: white;
-
-
-
-}
-
-
-.actual{
-    color: #BD131F;
-}
-
-main{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    font-family: 'Roboto';
-    color: white;
-}
-
-
-.indexMain{
-    background: url(../img/foto-stock3.jpeg);
-    background-size: 100%;
-}
-
-.galeryMain{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.galeryMain article{
-    width: 100%;
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactMain{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-
-    font-size: 130%;
-
-    padding: 5vh;
-
-}
-
-.contactMain ul{
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.contactMain li{
-
-    text-decoration: none;
+li{
     list-style: none;
-    align-self: flex-end;
-}
-
-.contactElement{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
-
-
-
-.clickHere{
-    color: #BD131F;
-}
-
-.clickHere :hover{
-    color: rgb(61, 12, 12);
-}
-
-.imagenContainer{
-    width: 90%;
-    height: auto;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    border-bottom: solid;
-    border-color: rgb(20, 22, 22)
 
 }
-
-.imagenContainerVertical{
-    margin: 0;
-    padding: 0;
-
-
-    width: 90%;
-    height: auto;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-}
-
-.imagenContainerVertical img{
-    width: 50%;
-}
-
-.imagenContainer img{
-    width: 90%;
-}
-
-
-.imagenContainerVertical{
-    width: 50%;
-    height: auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    border-bottom: solid;
-    border-color: rgb(20, 22, 22)
-}
-
-
-
-.imagenContainerVertical img {
-    width: 80%;
-}
-
-
-main a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-section{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.6);
-    padding: 7%;
-
-
-    border-bottom: solid;
-    border-color: rgb(20, 22, 22);
-
-}
-
-
-h2{
-    text-align: center;
-}
-
-.musicSection{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    align-items: center;
-    align-content: center;
-
-}
-
 
 h3{
     text-align: center;
-    padding: 5%;
-}
+    font-size: large;
 
-.musicSection a{
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.musicSection a img{
-    width: 50%;
-}
-
-.indexSection{
-    border: none;
-
-}
-
-.indexSection h2{
-    padding-bottom: 2vh;
-}
-
-.showSection{
-    background-color: black;
-    border: none;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.mailInput{
-
-}
-
-
-
-.mailMain{
-    height: 60vh;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2vh;
-}
-
-.inputDiv{
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    padding: 2vh;
-}
-
-.msjInput{
-    width: 80%;
-    height: 15vh;
-}
-
-form input{
-    width: 80%;
-}
-
-
-.submitButton{
-
-    margin-top: 1vh;
-    color: white;
-    background-color: rgb(27, 27, 27);
-    border: solid;
-    border-color: rgb(61, 12, 12);
-
+    margin-bottom: 3%;
 }
 
 iframe{
     width: 100%;
+
+}
+
+
+.iframeSection iframe{
+    height: auto;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+
+
+    padding-top: 25.5%;
+    padding-bottom: 25.5%;
+
+    text-align: center;
+
+}
+
+.formContainer input, textarea{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+header{
+    width: 100%;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: black;
+
+}
+
+
+.logo{
+    width: auto;
+    height: 8vh;
+    margin: 5%;
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+
+}
+
+nav{
+    width: 100%;
     height: auto;
 
+
+    font-size: larger;
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul{
+    width: 100%;
+ 
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+nav li, a{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+
+    background-color: black;
+
+    font-size: large;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    color: white;
+
+}
+
+main a{
+    display: inline;
+}
+
+.indexArticle{
+    background-image: url(../img/foto-stock3.jpeg);
+    background-size: 100%;
+}
+
+
+
+
+article{
+    width: 100%;
+    height: auto;
+
+
+    padding: 5%;
+}
+
+.indexArticle{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.contactArticle{
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.contactElement{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    font-size: medium;
+}
+
+.galeryArticle a{
+    color: red;
+}
+
+
+section{
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    background-color:rgb(1, 1, 1, 0.5)
+
+}
+
+.indexSection{
+    padding: 5%;
+    margin: 0;
+}
+
+.indexSection p{
+    font-size: medium;
+}
+
+.showSection{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 3%;
+    
+
+}
+
+
+
+.musicSection a{
+
+    display: flex;
+    justify-content: center;
+}
+
+.musicSection img{
+    width: 70%;
+    
+
+}
+
+
+.galeryArticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0;
+}
+
+
+.galeryContainer{
+    width: 85%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+.galerySingle{
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.galeryDouble{
+    width: 50%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+.galerySingle img{
+    width: 100%;
+    height: auto;
+
+    transition: 0.5s;
+}
+
+.galeryDouble img{
+    width: 100%;
+
+    transition: 0.5s;
+}
+
+.galeryContainer img:hover{
+
+    transform: scale(1.2);
+}
+
+.scroll{
+    width: 3%;
+    height: auto;
+
+    margin-top: 2%;
+
+}
+
+.scroll img{
+    width: 100%;
+}
+
+.imagenContainer{
+    width: 85%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+    overflow: hidden;
+}
+
+.imagenContainer img{
+    width: 50%;
+    height: auto;
+
+    transition: 0.5s;
+}
+
+.imagenContainer img:hover{
+    transform: scale(1.2);
 }
 
 aside{
     display: none;
 }
 
-
-
 footer{
     width: 100%;
-    height: 20vh;
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    height: auto;
+
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+
+
+    background-color: black;
+    color: white;
+            
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: white;
+
 
 }
 
 footer h3{
+    margin-top: 2%;
+    align-self: center;
 
-    padding-top: 1vh;
 
 }
 
-footer a{
-    height: 100%;
-    width: 15%;
-    display: flex;
-    justify-content: center;
-
-}
+.contactUs{
 
 
+    width: 80%;
 
-.contacUs{
-    width: 100%;
-    height: 40%;
-    padding-top: 7%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+
+    margin: 5%;
+    
+}
+
+.contactUs a{
+    width: 10%;
+    height: auto;
+    display: inline-block;
 
 }
+
+.contactUs img{
+    width: 100%;
+}
+
 
 
 
@@ -398,375 +379,160 @@ footer a{
 @media screen and (min-width: 700px) { 
 
 
-
-
-
-    header{
-        font-size: 160%;
-    }
-
-
-    main{
-        width: 100%;
-        height: 80vh;
-
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-
-    .indexMain{
-        font-size: 110%;
-    }
-
-    .indexMain article{
-        background: url(../img/foto-stock3.jpeg);
-        background-size: 100%;
-    }
-
-
-    .galeryMain{
-        height: auto;
-        width: 100%;
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-
-    }
-
-    .galeryMain article{
-        width: 70%;
-    }
-
-    .galeryMain aside{
-        width: 15%;
-    }
-
-    .contactMain{
-        height: auto;
-        width: 100%;
-
-        margin: 0;
-        padding: 0;
-
-        font-size: 200%;
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .contactMain article{
-        width: 70%;
-        padding: 10vh;
-    }
-
-    .contactMain aside{
-        width: 15%;
-    }
-
-    .musicMain{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    article{
-        width: 70%;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    section{
-        width: 100%;
-        height: 100%;
-        padding: 10%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .musicSection{
-        width: 100%;
-        height: 35vh;
-
-        margin: 0;
-        padding: 0;
-
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .musicSection a{
-        width: 50%;
-        height: auto;
-
-        align-self: center;
-
-    }
-
-    .musicSection img{
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .videoMusic{
-        width: 100%;
-        height: 40vh;
-    }
-
-
-    .musicTitle{
-        padding-bottom: 0;
-    }
-
-
-    .playlistSection{
-        padding: 3vh, 10vh, 3vh, 5vh;
-    }
-
-    .showSection{
-        background-color: rgba(0,0,0,0.6);
-    }
-
-    aside{
-        margin: 0;
-        padding: 0;
-        width: 15%;
-        height: auto;
-
-
-        border: none;
-
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-
-        background-color: rgb(20, 22, 22);
-        float: left;
-    }
-
-    footer{
-        width: 100%;
-        height: 25vh;
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-
-    }
-
-    footer h3{
-        height: 5vh;
-        margin: 0;
-        padding: 1%;
-
-        font-size: 150%;
-    }
-
-
-    .contacUs{
-        width: 100%;
-        height: 20vh;
-        margin: 0;
-        padding: 5vh;
-
-        display: flex;
-        flex-direction: row;
-    }
-
-
-
-    .contacUs img{
-
-        height: 70%;
-    }
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    
+    background-color: black;
+    color: white;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: white;
+}
+
+.logo{
+
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.logo img{
+    align-self: center;
+    width: 7%;
+    height: auto;
 
 }
 
 
 
+nav{
+    height: 40%;
+
+}
+
+nav a:hover{
+    color: red;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    background-color:rgb(20, 22, 22);
+}
+
+article{
+    width: 70%;
+    align-self: center;
+
+    background-color: black;
 
 
+}
 
-@media screen and (min-width: 1080px) { 
+.indexArticle{
+    background-image: url(../img/foto-stock1.2.jpeg);
+    background-size: 100%;
+}
 
+.indexSection{
+  background-color: rgb(1,1,1, 0.7 );
+}
 
+.musicSection{
 
-    .indexMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.musicSection img{
+    width: 50%;
+    height: auto;
+}
 
-        width: 100%;
-        height: auto;
+.contactArticle{
+    padding: 6%;
 
-        font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
-    }
+.galeryContainer{
+    width: 70%;
+}
+.imagenContainer{
+    width: 70%;
+}
 
-    .indexMain article{
-        width: 70%;
+iframe{
+    width: 70%;
 
-        background: url(../img/foto-stock1.jpeg);
-        background-size: 100%;
-    }
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
 
+}
 
+aside{
+    width: 15%;
+    height: 100%;
+    min-height: 1005;
+    margin: 0;
+    padding: 0;
 
-    .musicMain{
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    float: left;
 
-    .musicSection{
-        padding-left: 20%;
-        padding-right: 20%;
-    }
+    display: block;
 
-    .iframeSection{
-        padding-right: 20%;
-        padding-left: 20%;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .playlistSection{
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-top: 0;
-        padding-bottom: 0;
-
-    }
-
-    .galeryMain{
-        width: 100%;
-
-        display: flex;
-        flex-direction: row;
-        
-
-    }
-
-    .galeryMain article{
-        width: 70%;
-    }
-
-    .galeryMain aside{
-        width: 15%;
-    }
-
-    
-    .imagenContainer{
-        width: 45%;
-        height: auto;
-    }
+}
 
 
-    .contactMain{
-        width: 100%;
-        height: 70vh;
-        margin: 0;
-        padding: 0;
+footer{
+    height: 15vh;
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+}
 
-        font-size: 100%;
-    }
-
-    .contactMain article{
-        width: 70%;
-
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    .contactMain aside{
-        width: 15%;
-    }
+footer h3{
+    margin: 0;
 
 
-    .mailMain{
-        height: auto;
-    }
+}
 
-    .mailMain form{
-        padding: 5vh;
-    }
+.contactUs{
+    height: 70%;
+    width: 50%;
 
-    .indexSection{
-        padding-right: 30%;
-        padding-left: 30%;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-    }
-
-    .showSection{
-        background-color: black;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
+    margin: 0;
+    padding: 0;
+}
 
 
-    header{
-        height: 18vh;
-        font-size: 130%;
-    }
-
-
-    article{
-        float: right;
-    }
-
-    footer{
-        border-top: solid;
-        border-color: rgb(27,27 ,27 ) ;
-
-
-        height: 13vh;
-    }
-
-    footer h3{
-        padding-top: 1vh;
-    }
-
-    .contactUs{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-
-        padding-top: 1%;
-
-    }
-
-    .contactUs img{
-        width: 12%;
-        height: auto;
-
-
-    }
-
+.contactUs a, img{
+    width: 5%;
+    height: auto;
+}
 
 }
