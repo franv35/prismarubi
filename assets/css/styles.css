@@ -379,6 +379,11 @@ footer h3{
 @media screen and (min-width: 700px) { 
 
 
+h3{
+        font-size: medium;
+}
+
+
 img{
     width: 100%;
     height: auto;
@@ -446,7 +451,6 @@ article{
 
     background-color: black;
 
-
 }
 
 .indexArticle{
@@ -454,8 +458,13 @@ article{
     background-size: 100%;
 }
 
+
 .indexSection{
   background-color: rgb(1,1,1, 0.7 );
+}
+
+.indexSection a:hover{
+    color: red;
 }
 
 .musicSection{
@@ -533,6 +542,18 @@ footer h3{
 .contactUs a, img{
     width: 5%;
     height: auto;
+}
+
+.formArticle{
+
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer{
+    width: 70%;
+
+    padding: 15%;
 }
 
 }
